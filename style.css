@@ -1,0 +1,55 @@
+.my-custom-text {
+    width: 100%;
+    display: block;
+    font-size: 22.5vw;
+    /* Adjust the base font size as needed */
+    text-align: center;
+    line-height: 100%;
+}
+
+.my-footer-text {
+    width: 100%;
+    display: block;
+    font-size: 18.5vw;
+    /* Adjust the base font size as needed */
+    text-align: center;
+    line-height: 100%;
+}
+
+.loader {
+    width: 100%;
+    display: block;
+    font-size: 22.5vw;
+    /* Adjust the base font size as needed */
+    text-align: right;
+    line-height: 100%;
+}
+
+[data-scroll-container] {
+    position: relative;
+    overflow: scroll;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+
+
+/* Style for Webkit browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #939393;
+    border-radius: 6px;
+    /* Adjust the radius as needed */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
